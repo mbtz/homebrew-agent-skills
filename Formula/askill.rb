@@ -10,6 +10,7 @@ class Askill < Formula
 
   def install
     system "go", "build", "-o", bin/"askill", "./cmd/askill"
+    pkgshare.install "skills"
   end
 
   test do
