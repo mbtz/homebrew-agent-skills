@@ -1,9 +1,9 @@
 class Askill < Formula
   desc "Install and manage agent skills across harnesses"
   homepage "https://github.com/mbtz/agent-skills"
-  url "https://github.com/mbtz/agent-skills/archive/refs/tags/v0.2.3.tar.gz"
-  version "0.2.3"
-  sha256 "3e365616be8fd969707616a34177c879f56d2de02c2a702f4d06d0b6020e7ba2"
+  url "https://github.com/mbtz/agent-skills/archive/refs/tags/v0.2.4.tar.gz"
+  version "0.2.4"
+  sha256 "7aab3e7783640f351ce99e1dd318e6911337c499b0c552f07b32dfdaff46ca53"
   license "MIT"
 
   depends_on "go"
